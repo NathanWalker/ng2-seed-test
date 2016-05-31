@@ -1,0 +1,86 @@
+{
+  "name": "@ngrx/store",
+  "version": "2.0.0",
+  "description": "RxJS powered Redux for Angular2 apps",
+  "main": "./index.js",
+  "scripts": {
+    "test": "npm run build_test && jasmine",
+    "clean_test": "rm -rf tmp/",
+    "build_test": "npm run clean_test && tsc -p spec",
+    "build_dist": "rm -rf dist && tsc && npm run copy_package",
+    "copy_package": "cp package.json dist/package.json",
+    "_prepublish": "npm run typings && npm run build_dist",
+    "lint": "tslint src/**.ts",
+    "typings": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngrx/store.git"
+  },
+  "keywords": [
+    "RxJS",
+    "Angular2",
+    "Redux"
+  ],
+  "author": {
+    "name": "Rob Wormald",
+    "email": "robwormald@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngrx/store/issues"
+  },
+  "homepage": "https://github.com/ngrx/store#readme",
+  "devDependencies": {
+    "@angular/core": "^2.0.0-rc.0",
+    "@ngrx/core": "^1.0.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.35.0",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "lodash": "^3.10.1",
+    "reflect-metadata": "0.1.2",
+    "rimraf": "^2.5.1",
+    "rxjs": "5.0.0-beta.6",
+    "tslint": "^3.4.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.6.6",
+    "zone.js": "^0.6.12"
+  },
+  "peerDependencies": {
+    "@ngrx/core": "^1.0.0",
+    "rxjs": "5.0.0-beta.6",
+    "@angular/core": "^2.0.0-rc.0"
+  },
+  "typings": "./index.d.ts",
+  "_id": "@ngrx/store@2.0.0",
+  "_shasum": "cdd807642999f8bba207dc0a7be2b14c81d5efbf",
+  "_from": "@ngrx/store@>=2.0.0 <3.0.0",
+  "_resolved": "https://registry.npmjs.org/@ngrx/store/-/store-2.0.0.tgz",
+  "_npmVersion": "3.8.6",
+  "_nodeVersion": "5.11.0",
+  "_npmUser": {
+    "name": "robwormald",
+    "email": "rob.wormald@innitapps.com"
+  },
+  "dist": {
+    "shasum": "cdd807642999f8bba207dc0a7be2b14c81d5efbf",
+    "tarball": "https://registry.npmjs.org/@ngrx/store/-/store-2.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "ngrxadmin",
+      "email": "robwormald@gmail.com"
+    },
+    {
+      "name": "robwormald",
+      "email": "rob.wormald@innitapps.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/store-2.0.0.tgz_1464202820627_0.07621684833429754"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

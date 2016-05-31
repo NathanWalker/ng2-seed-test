@@ -1,0 +1,53 @@
+{
+  "name": "nativescript-ng2-translate",
+  "version": "1.1.0",
+  "description": "Use ng2-translate with NativeScript + Angular2.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanWalker/nativescript-ng2-translate.git"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "ng2-translate",
+    "i18n",
+    "nativescript"
+  ],
+  "author": {
+    "name": "NathanWalker",
+    "email": "NathanWalker"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NathanWalker/nativescript-ng2-translate/issues"
+  },
+  "homepage": "https://github.com/NathanWalker/nativescript-ng2-translate#readme",
+  "gitHead": "f6ce19024c9c05805fb201d6cf54258b39dfe9ed",
+  "_id": "nativescript-ng2-translate@1.1.0",
+  "scripts": {},
+  "_shasum": "19be1fba3d222c0badeac59e06d08adcbadbae5c",
+  "_from": "nativescript-ng2-translate@>=1.1.0 <2.0.0",
+  "_npmVersion": "3.5.3",
+  "_nodeVersion": "5.5.0",
+  "_npmUser": {
+    "name": "walkerrunpdx",
+    "email": "walkerrunpdx@gmail.com"
+  },
+  "dist": {
+    "shasum": "19be1fba3d222c0badeac59e06d08adcbadbae5c",
+    "tarball": "https://registry.npmjs.org/nativescript-ng2-translate/-/nativescript-ng2-translate-1.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "walkerrunpdx",
+      "email": "walkerrunpdx@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-ng2-translate-1.1.0.tgz_1462848882188_0.4816374876536429"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/nativescript-ng2-translate/-/nativescript-ng2-translate-1.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
